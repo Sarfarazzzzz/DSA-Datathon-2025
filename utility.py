@@ -251,3 +251,48 @@ def smart_impute(df, cols, group_col=None, skew_threshold=1):
                 df_copy[col] = df_copy[col].fillna(df_copy[col].mean())
     
     return df_copy
+
+
+def cat_data(df):
+    '''Generate number of unique values and catplot of columns in df classified as category'''
+    print(df.select_dtypes(include=['category']).nunique())
+    for col in df.select_dtypes(include='category').columns:
+        fig = sns.catplot(x=col, kind='count', data=df)
+        fig.set_ylabels('Count')
+        fig.set_xlabels('')
+        fig.set(title=col)
+        fig.set_xticklabels()
+        plt.show()
+
+def num_data(df):
+    '''Generate boxplot in df from numerical column data'''
+    for col in df.select_dtypes(include=['int64','float']).columns:
+        fig = sns.boxplot(x=col, orient='v', data=df)
+        plt.show()
+
+
+def lmplot(data, x, y, xlabel, ylabel, title, height=12, aspect=1, theme='poster', target='LILATracts_halfAnd10',\
+          style='darkgrid'):
+    '''Creates lmplot to comepare two variables vs the target 
+    Enter dataframe, x, y, xlabel, ylabel, title.
+    Height and aspect have default values
+    Seaborn theme default poster, theme to darkgrid
+    Target default to LILATracts_halfAnd10'''
+    sns.set_style(style)
+    sns.set_theme(theme)
+    sns.lmplot(x=x, 
+               y=y,  
+               data=data,
+              height=12,
+              aspect=1,
+               legend_out=False,
+              hue=target)\
+        .set(ylabel=ylabel, 
+             xlabel=xlabel, 
+             title=title)\
+        ._legend.set_title('Target')
+    plt.show();
+
+def test():
+    print('Hello World from utility.py')
+    return 0
