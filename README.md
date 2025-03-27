@@ -26,7 +26,4 @@
 
 
 [Food Acces Research Atlas Documentation ](https://www.ers.usda.gov/data-products/food-access-research-atlas/documentation/)
-## Tasks 
-- [x] split xls file into "domain".csv
-- [ ] get relevent data
 
