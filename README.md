@@ -2,6 +2,12 @@
 
 ## 🏆 Datathon 2nd Runner-Up 🏆
 
+This project was developed for the **DSA Datathon 2025**, where it achieved **3rd Place** out of all participating teams.
+
+**[See the official prize announcement on LinkedIn]([YOUR_LINKEDIN_POST_URL_HERE](https://www.linkedin.com/feed/update/urn:li:activity:7320574100089802752?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUqNRwB9BApEeWHmznn2to2qLofCXlWSt0))**
+
+---
+
 This project was developed for the **DSA Datathon 2025**, where it achieved **2nd Runner-Up** out of all participating teams.
 
 ## 1. Project Goal
