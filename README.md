@@ -6,7 +6,7 @@ This project was developed for the **DSA Datathon 2025**, where it achieved **2n
 
 ## 1. Project Goal
 
-The primary goal of this 24-hour datathon was to build a machine learning model to identify U.S. census tracts at high risk of becoming "food deserts".
+The primary goal of this datathon was to build a machine learning model to identify U.S. census tracts at high risk of becoming "food deserts".
 
 Beyond just prediction, the project aims to identify the key socioeconomic and health factors that contribute to food insecurity and, based on these findings, propose actionable, data-driven policy recommendations to prevent the formation of new food deserts.
 
