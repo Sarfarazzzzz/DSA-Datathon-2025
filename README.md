@@ -1,8 +1,8 @@
 # Food Desert Prediction & Prevention (DSA Datathon 2025)
 
-## 🏆 Datathon 2nd Runner-Up (3nd Place) 🏆
+## 🏆 Datathon 2nd Runner-Up 🏆
 
-This project was developed for the **DSA Datathon 2025**, where it achieved **Runner-Up (2nd Place)** out of all participating teams.
+This project was developed for the **DSA Datathon 2025**, where it achieved **2nd Runner-Up** out of all participating teams.
 
 ## 1. Project Goal
 
