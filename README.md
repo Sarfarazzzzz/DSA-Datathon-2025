@@ -20,7 +20,7 @@ Beyond just prediction, the project aims to identify the key socioeconomic and h
 
 1.  **Data Integration:** Combined and cleaned over 10 disparate datasets from sources like the Food Access Research Atlas and the Food Environment Atlas, merging them at the census-tract level.
 2.  **Exploratory Data Analysis (EDA):** Performed extensive EDA to handle missing values and uncover correlations between food access, socioeconomic status (e.g., poverty, unemployment), and health outcomes (e.g., obesity, diabetes).
-3.  **Feature Engineering:** Engineered new features from the raw data to better capture the complex factors leading to food insecurity.
+3.  **Feature Engineering:** Engineered 20+ features from the raw data to better capture the complex factors leading to food insecurity.
 4.  **Model Development:** Trained and compared a suite of classification models, including Logistic Regression, Random Forest, XGBoost, and CatBoost, to find the best predictor.
 5.  **Model Evaluation:** The final tuned model achieved **88% accuracy** in predicting at-risk census tracts.
 
