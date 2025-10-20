@@ -39,7 +39,6 @@ Based on the model's feature importances and our analysis, we proposed a multi-p
     git clone [https://github.com/Sarfarazzzzz/DSA-Datathon-2025.git](https://github.com/Sarfarazzzzz/DSA-Datathon-2025.git)
     ```
 2.  Install the required dependencies:
-    *(**Note:** You should create a `requirements.txt` file listing all the libraries used in `Final.py`)*
     ```bash
     pip install -r requirements.txt
     ```
