@@ -4,7 +4,7 @@
 
 This project was developed for the **DSA Datathon 2025**, where it achieved **3rd Place** out of all participating teams.
 
-**[See the official prize announcement on LinkedIn]([https://www.linkedin.com/feed/update/urn:li:activity:7320574100089802752?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUqNRwB9BApEeWHmznn2to2qLofCXlWSt0])**
+**[See the official prize announcement on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7320574100089802752?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUqNRwB9BApEeWHmznn2to2qLofCXlWSt0)**
 
 ---
 
